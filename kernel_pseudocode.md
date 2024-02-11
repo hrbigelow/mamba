@@ -83,8 +83,9 @@ dim dimension into n_groups groups.
 
 How does this work?  In the default case, we have:
 
-Bbar_{bdln} = Delta_{bld} B_{bnl}
-y_{bdl} = h_{bdnl} C_{bnl}
+$Bbar_{bdln} = Delta_{bld} B_{bnl}$
+
+$y_{bdl} = h_{bdnl} C_{bnl}$
 
 In the case where n_groups > 1, we have instead
 
