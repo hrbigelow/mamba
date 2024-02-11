@@ -28,8 +28,11 @@ def run_kernel(nthreads, nitems, u, delta, A, B, C, out):
     n_chunks = (seqlen + 2048 - 1) / 2048;
     x = torch.empty(batch, dim, n_chunks, dstate * 2)
 
+    # imagine that each (batch, dim) combination is run in parallel
+    # and in no particular order
     for batch_id in range(batch):
         for dim_id in range(dim):
+            # shard each input along (batch, dim) dimensions
             x = x[batch_id, dim_id]
             u = u[batch_id, dim_id]
             delta = delta[batch_id, dim_id]
