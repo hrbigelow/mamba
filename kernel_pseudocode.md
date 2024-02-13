@@ -81,7 +81,8 @@ with shapes `[batch, dstate, seqlen]`.  You can also provide B and C with shape
 `[batch, n_groups, dstate, seqlen]` however.  This has the effect that it groups the
 dim dimension into n_groups groups.
 
-How does this work?  In the default case, we have:
+How does this work?  In the default case, we have (I'm using raw latex since inline
+math doesn't display correctly):
 
 ```
 \bar{B}_{bdln} = \Delta_{bld} B_{bnl}
