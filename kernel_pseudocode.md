@@ -85,6 +85,10 @@ How does this work?  In the default case, we have:
 
 $\bar{B}_{bdln} = \Delta_{bld} B_{bnl}$
 
+$\bar{B}_{bdln} = \Delta_{bld}$
+
+$= \Delta_{bld}$
+
 $y_{bdl} = h_{bdnl} C_{bnl}$
 
 In the case where n_groups > 1, we have instead
