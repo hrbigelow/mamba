@@ -85,7 +85,7 @@ How does this work?  In the default case, we have:
 
 $\bar{B}_{bdln}$
 
-$\Delta$
+$\Delta_{bld}$
 
 $\bar{B}_{bdln} = \Delta_{bld} B_{bnl}$
 $y_{bdl} = h_{bdnl} C_{bnl}$
