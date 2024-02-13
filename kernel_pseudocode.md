@@ -87,6 +87,8 @@ $\bar{B}_{bdln} = \Delta_{bld} B_{bnl}$
 
 $\bar{B}_{bdln} = \Delta_{bld}$
 
+$\bar{B}_{bdln} = $
+
 $= \Delta_{bld}$
 
 $y_{bdl} = h_{bdnl} C_{bnl}$
