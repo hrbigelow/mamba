@@ -83,29 +83,24 @@ dim dimension into n_groups groups.
 
 How does this work?  In the default case, we have:
 
-$$
-\bar{B}_{bdln} = \Delta_{bld} \\
+```
+\bar{B}_{bdln} = \Delta_{bld} B_{bnl}
 y_{bdl} = h_{bdnl} C_{bnl}
-$$
-
-$\bar{B}_{bdln} = \Delta_{bld} B_{bnl}$
-
-$\bar{B}_{bdln} = \Delta_{bld}$
-
-$\bar{B}_{bdln} = $
-
-$= \Delta_{bld}$
-
-$y_{bdl} = h_{bdnl} C_{bnl}$
+```
 
 In the case where n_groups > 1, we have instead
 
-$\bar{B}_{bdln} = \Delta_{bld} B'_{bdnl}$
-$y_{bdl} = h_{bdnl} C'_{bdnl}$
+```
+\bar{B}_{bdln} = \Delta_{bld} B'_{bdnl}
+y_{bdl} = h_{bdnl} C'_{bdnl}
+```
 
 where:
-$B'_{bdnl} = B_{bgnl}$
-$C'_{bdnl} = C_{bgnl}$
+
+```
+B'_{bdnl} = B_{bgnl}
+C'_{bdnl} = C_{bgnl}
+```
 
 for `g = d // dims_per_group`
 
